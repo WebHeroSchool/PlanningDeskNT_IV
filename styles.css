@@ -4,12 +4,12 @@
 .menu {
   font-family: Roboto;
 }
-.title {
+.main-content__title {
   font-family: PT Serif;
 }
-.description {
+.main-content__description {
   font-family: Roboto;
 }
-.click {
+.main-content__button {
   font-family: Roboto;
 }
