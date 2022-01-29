@@ -1,15 +1,38 @@
 .logo {
   font-family: PT Serif;
+  padding: 40px 0;
 }
 .menu {
   font-family: Roboto;
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+}
+.menu__item:last-child {
+  padding-right: 0;
 }
 .main-content__title {
   font-family: PT Serif;
+  margin: 246px 191px 40px 0;
 }
 .main-content__description {
   font-family: Roboto;
+  margin: 0 303px 59px 0
 }
 .main-content__button {
   font-family: Roboto;
+  margin: 0 486px 327px 0
+}
+.wrapper {
+  width: 80%;
+  margin:auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.main-content {
+
 }
