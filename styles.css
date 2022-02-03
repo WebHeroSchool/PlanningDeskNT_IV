@@ -1,6 +1,25 @@
 .logo {
-  font-family: PT Serif;
-  padding: 40px 0;
+  padding-left: 44px;
+  font: 700 24px/31px PT Serif;
+  width: 146px;
+  height: 32px;
+  position: relative;
+}
+.logo__ellipse {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+}
+.logo__ellipse_color_blue {
+  background: url('img/ellipse blue.svg');
+  left: 8px;
+  top: 70%;
+}
+.logo__ellipse_color_dark-blue {
+  background: url('img/ellipse dark-blue.svg');
 }
 .menu {
   font-family: Roboto;
@@ -30,9 +49,7 @@
   margin:auto;
 }
 .header {
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
-}
-.main-content {
-
 }
